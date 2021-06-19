@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="self-writing, robot, self-typing, autonomous">
+    <meta name="description" content="A robot that can write by itself using just JavaScript and no AI.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Autonomous Typist</title>
+</head>
+<body>
+    <!--Remember to put HTML onclick functions-->
+    <h1 id="doc-title">Autonomous Typist</h1>
+    <h2 id="catcher">The Story-Teller</h2>
+    <p id="characters"></p>
+    <textarea id="paper" readonly></textarea>
+    <div class="buttons">
+        <button class="start button" onclick="sentenceMaker()" title="Start writing"><img src="https://cdn3.iconfinder.com/data/icons/line/36/play-512.png" alt="Start writing." height="40" width="40"></button>
+        <button class="clear button" onclick="clearAllWriting()" title="Clear all writing"><img src="https://www.freeiconspng.com/thumbs/clear-icon/clear-icon-3.png" alt="Clear all writing." height="40" width="40"></button>
+        <button class="copy button" onclick="copyWriting()" title="Copy writing"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-clipboard-512.png" alt="Copy to clipboard." height="40" width="40"></button>
+    </div>
+    <p class="credits">Created by F. Rohan</p>
+    <p class="credits">Using HTML, CSS, and JS</p>
+    <p class="credits">Version: 1.0.0</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
