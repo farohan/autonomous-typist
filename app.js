@@ -1,8 +1,16 @@
 //Listing all SVOs and declaring everything (including my genius)
-const subjects = ['I', 'He', 'She', 'We', 'It', 'They'];
-const verbs_past = ['saw', 'greeted', 'welcomed', 'loved', 'hated', 'admired'];
-const objects = ['me', 'him', 'her', 'us', 'it', 'them'];
-const reasons = ['just because', 'for it was customary', 'because 2 + 2 = 4', 'for it was the right thing to do'];
+const subjects = ['I', 'He', 'She', 'We', 'It', 'They', 'The person', 'The dog', 
+                  'The cat', 'Our customers', 'The baby', 'The doorbell', 'The singer', 'The crow'];
+
+const verbs_past = ['saw', 'greeted', 'welcomed', 'loved', 'hated', 'admired', 'copied', 
+                    'wrote', 'rode', 'stopped', 'ran', 'jumped', 'heard', 'walked', 'took', 'rang'];
+
+const objects = ['me', 'him', 'her', 'us', 'it', 'them', 'on the paper', 'across the street', 
+                 'on the rooftop', 'near the downtown', 'close to the corner store', 'right by the curb'];
+
+const reasons = ['just because', 'for it was customary', 'because 2 + 2 = 4', 'for it was the right thing to do', 
+                 'because it was natural', 'for it was his birthday today', 'in case there was a fire', 'lest it scares away the birds'];
+
 const characters = document.getElementById('characters');
 let paper = document.getElementById('paper');
 let sentence;
